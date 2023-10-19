@@ -21,5 +21,5 @@ def perimeter(a, b):
         Возвращаемое значение:
             perimeter_result (int) : удвоенная сумма целых чисел a и b
     '''
-    perimeter_result
-    return 2*(a + b)
+    perimeter_result = 2*(a+b)
+    return perimeter_result
