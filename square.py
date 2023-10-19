@@ -7,6 +7,10 @@ def area(a):
 
         Возвращаемое значение:
             area_result (int) : целое число a во второй степени
+            
+        Пример вызова:
+            print(area(6))
+            > 36
     '''
     area_result = a * a
     return area_result
@@ -20,6 +24,10 @@ def perimeter(a):
 
         Возвращаемое значение:
             perimeter_result (int) : целое число a, умноженное на 4
+            
+        Пример вызова:
+            print(perimeter(5))
+            > 20
     '''
     perimeter_result = 4 * a
     return perimeter_result
