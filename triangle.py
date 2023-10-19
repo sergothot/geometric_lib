@@ -7,6 +7,10 @@ def area(a, h):
 
         Возвращаемое значение:
             area_result (float) : половина от произведения целых чисел a и h
+
+        Пример вызова:
+            print(area(10, 4))
+            > 20
     '''
     area_result = a * h / 2
     return area_result
@@ -21,6 +25,10 @@ def perimeter(a, b, c):
 
         Возвращаемое значение:
             perimeter_result (int) : сумма трёх целых чисел a, b, c
+
+        Пример вызова:
+            print(perimeter(3, 4, 5))
+            > 12
     '''
     perimeter_result = a + b + c
     return perimeter_result
