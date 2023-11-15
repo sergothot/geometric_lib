@@ -1,3 +1,30 @@
+import unittest
+class TriangleTestCase(unittest.TestCase):
+    def test_area_zero(self):
+       res = area(0)
+       self.assertEqual(res, 0)
+       
+    def test_area(self):
+       res = area(6)
+       self.assertEqual(res, 36)
+
+    def test_area_large_number(self):
+       res = area(13482830)
+       self.assertEqual(res, 181786704808900)
+    
+    def test_perimeter_zero(self):
+       res = perimeter(0)
+       self.assertEqual(res, 0)
+
+    def test_perimeter_equal(self):
+       res = perimeter(10)
+       self.assertEqual(res, 40)
+
+    def test_perimeter_large_numbers(self):
+       res = perimeter(13482830)
+       self.assertEqual(res, 53931320)
+
+
 
 def area(a):
     '''Принимает число a (сторона квадрата) и возвращает площадь квадрата по формуле S = a^2
