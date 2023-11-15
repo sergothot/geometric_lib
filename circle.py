@@ -3,7 +3,7 @@ import unittest
 class CircleTestCase(unittest.TestCase):
     def test_area_zero(self):
        res = area(0)
-       self.assertEqual(0)
+       self.assertEqual(res, 0)
        
     def test_area(self):
        res = area(10)
