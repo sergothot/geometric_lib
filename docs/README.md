@@ -1,3 +1,8 @@
+> !!! апдейт 15.11.23: добавлены юнит тесты для rectangle, circle, square, triangle !!!
+
+<img width="200" height="150" alt="update apology" src="update-apology.gif"/>
+
+
 # Общее описание проекта и функций (с примерами)
 ## circle.py
 - содержит функцию area(r): принимает число r (радиус) и возвращает площадь круга по формуле S = πr^2
